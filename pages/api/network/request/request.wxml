@@ -1,2 +1,2 @@
 <!--pages/api/network/request.wxml-->
-<text>pages/api/network/request.wxml</text>
+<text class="req-test-info">wx request test</text>
