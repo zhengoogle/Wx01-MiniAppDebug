@@ -1,0 +1,6 @@
+<!--pages/view/advance/webview/WebView.wxml-->
+<view class="wv-main-container">
+	<!-- <web-view src="https://mp.weixin.qq.com/"></web-view> -->
+	<!-- <web-view src="https://www.baidu.com/"></web-view> -->
+	<web-view src="http://html51.com/info-44386-1/"></web-view>
+</view>
