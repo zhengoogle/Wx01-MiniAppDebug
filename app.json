@@ -1,13 +1,16 @@
 {
   "pages": [
-		"pages/view/advance/webview/WebView",
+    "pages/api/login/OpenId/OpenId",
+    "pages/api/login/WxLogin/WxLogin",
+    "pages/view/advance/webview/WebView",
     "pages/home/view/ViewPage",
     "pages/home/api/APIPage",
     "pages/api/router/jump/WxRouter",
     "pages/api/network/request/request",
     "pages/index/index",
+    "pages/view/fixed/tab/Tab",
     "pages/logs/logs",
-    "pages/view/fixed/tab/Tab"
+    "pages/api/router/JumpWxApp/JumpWxApp"
   ],
   "window": {
     "backgroundTextStyle": "light",
