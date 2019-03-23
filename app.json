@@ -2,19 +2,19 @@
   "pages": [
 		"pages/content/index/index",
     "pages/index/index",
-    "pages/api/es6/promise/Promise",
-    "pages/api/es6/async/Async",
-    "pages/api/login/OpenId/OpenId",
-    "pages/api/login/WxLogin/WxLogin",
-    "pages/view/advance/webview/WebView",
     "pages/home/view/ViewPage",
     "pages/home/api/APIPage",
-    "pages/api/router/jump/WxRouter",
-    "pages/api/network/request/request",
-    "pages/view/fixed/tab/Tab",
     "pages/logs/logs",
-    "pages/api/router/JumpWxApp/JumpWxApp",
-    "pages/api/router/JumpPage/JumpPage"
+    "pages/debug/api/es6/promise/Promise",
+    "pages/debug/api/es6/async/Async",
+    "pages/debug/api/login/OpenId/OpenId",
+    "pages/debug/api/login/WxLogin/WxLogin",
+    "pages/debug/view/advance/webview/WebView",
+    "pages/debug/api/router/jump/WxRouter",
+    "pages/debug/api/network/request/request",
+    "pages/debug/view/fixed/tab/Tab",
+    "pages/debug/api/router/JumpWxApp/JumpWxApp",
+    "pages/debug/api/router/JumpPage/JumpPage"
     
   ],
   "window": {
