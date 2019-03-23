@@ -1,5 +1,9 @@
 {
   "pages": [
+		"pages/content/index/index",
+    "pages/index/index",
+    "pages/api/es6/promise/Promise",
+    "pages/api/es6/async/Async",
     "pages/api/login/OpenId/OpenId",
     "pages/api/login/WxLogin/WxLogin",
     "pages/view/advance/webview/WebView",
@@ -7,10 +11,11 @@
     "pages/home/api/APIPage",
     "pages/api/router/jump/WxRouter",
     "pages/api/network/request/request",
-    "pages/index/index",
     "pages/view/fixed/tab/Tab",
     "pages/logs/logs",
-    "pages/api/router/JumpWxApp/JumpWxApp"
+    "pages/api/router/JumpWxApp/JumpWxApp",
+    "pages/api/router/JumpPage/JumpPage"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",

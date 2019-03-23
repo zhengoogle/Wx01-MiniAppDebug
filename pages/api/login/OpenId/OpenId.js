@@ -16,13 +16,13 @@ Page({
 	 * 	https://blog.csdn.net/qq_27626333/article/details/54614037
 	 */
 	onLoad: function(options) {
-		console.log(getOpenId())
+		console.log(this.getOpenId())
 	},
 	/**
 	 * 获取openid
 	 */
 	getOpenId: function() {
-		var that = this
+		var that = getApp()
 		var user = wx.getStorageSync('user') || {};
 		var userInfo = wx.getStorageSync('userInfo') || {};
 		if ((!user.openid || (user.expires_in || Date.now()) < (Date.now() + 600)) && (!userInfo.nickName)) {
