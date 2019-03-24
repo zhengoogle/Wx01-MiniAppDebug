@@ -1,4 +1,4 @@
-// pages/debug/miniapp/0miniapp/0miniapp.js
+// pages/debug/miniapp/app/0app/0app.js
 Page({
 
 	/**
@@ -6,12 +6,15 @@ Page({
 	 */
 	data: {
 		showList: [{
-			name: '小程序指令',
-			path: '/pages/debug/miniapp/wx-cmd/0wxcmd/0wxcmd'
+			name: '小程序基础库 lib',
+			path: '/pages/debug/miniapp/app/wx-lib/wx-lib'
 		},{
-			name: '小程序APP',
-			path: '/pages/debug/miniapp/wx-cmd/0wxcmd/0wxcmd'
-		},]
+			name: '小程序限制 limit',
+			path: '/pages/debug/miniapp/app/wx-limit/wx-limit'
+		},{
+			name: '小程序打包 pkg',
+			path: '/pages/debug/miniapp/app/wx-pkg/wx-pkg'
+		}, ]
 	},
 
 	/**

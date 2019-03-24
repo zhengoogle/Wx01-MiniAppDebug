@@ -1,0 +1,6 @@
+<!--pages/template/content/list-view/list-view.wxml-->
+<view class="lv-main-box">
+	<view bindtap="onItemClick" class="lv-item-box" wx:for="{{showList}}" wx:key="" wx:for-index="index" id="{{index}}" wx:for-item="item">
+		<view class="lv-item-title">{{item.name}}</view>
+	</view>
+</view>

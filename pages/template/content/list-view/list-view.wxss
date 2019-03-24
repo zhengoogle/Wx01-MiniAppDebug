@@ -1,0 +1,16 @@
+/* pages/template/content/list-view/list-view.wxss */
+.lv-main-box{
+	width: 100%;
+}
+
+.lv-item-box{
+	margin: 10rpx;
+}
+
+.lv-item-title{
+	padding: 8rpx;
+	text-decoration:underline;
+	color: blue;
+	border: 1rpx solid #EEE;
+	background: #EFE;
+}

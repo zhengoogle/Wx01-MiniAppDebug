@@ -1,0 +1,5 @@
+/* pages/debug/miniapp/app/wx-lib/wx-lib.wxss */
+.wl-item-title{
+	width: 100%;
+	text-align: center;
+}

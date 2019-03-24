@@ -1,6 +1,8 @@
 {
   "pages": [
-		"pages/debug/api/es6/promise/Promise",
+		"pages/debug/miniapp/app/0app/0app",
+    
+    "pages/debug/api/es6/promise/Promise",
     "pages/debug/api/0api/0api",
     "pages/debug/miniapp/0miniapp/0miniapp",
     "pages/debug/view/0view/0view",
@@ -13,8 +15,7 @@
     "pages/debug/miniapp/page-json/page-json",
     "pages/debug/view/fixed/tab/Tab",
     "pages/debug/view/advance/webview/WebView",
-		"pages/debug/api/es6/0es6/0es6",
-    
+    "pages/debug/api/es6/0es6/0es6",
     "pages/debug/api/es6/async/Async",
     "pages/debug/api/login/OpenId/OpenId",
     "pages/debug/api/login/WxLogin/WxLogin",
@@ -22,8 +23,10 @@
     "pages/debug/api/network/request/request",
     "pages/debug/api/router/JumpWxApp/JumpWxApp",
     "pages/debug/api/router/JumpPage/JumpPage",
-    "pages/debug/miniapp/wx-cmd/0wxcmd/0wxcmd"
-    
+    "pages/debug/miniapp/wx-cmd/0wxcmd/0wxcmd",
+    "pages/debug/miniapp/app/wx-lib/wx-lib",
+    "pages/debug/miniapp/app/wx-pkg/wx-pkg",
+    "pages/debug/miniapp/app/wx-limit/wx-limit"
   ],
   "window": {
     "backgroundTextStyle": "light",

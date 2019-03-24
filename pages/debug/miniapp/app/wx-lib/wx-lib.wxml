@@ -1,0 +1,2 @@
+<!--pages/debug/miniapp/app/wx-lib/wx-lib.wxml-->
+<view class="wl-item-title">微信基础库版本与客户端版本</view>
