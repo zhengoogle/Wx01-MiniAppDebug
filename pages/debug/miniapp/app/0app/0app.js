@@ -25,17 +25,6 @@ Page({
 	},
 
 	/**
-	 * Item事件点击处理
-	 */
-	onItemClick(res) {
-		console.log(res.currentTarget.id)
-		let curIndex = res.currentTarget.id
-		wx.navigateTo({
-			url: this.data.showList[curIndex].path
-		})
-	},
-
-	/**
 	 * 生命周期函数--监听页面初次渲染完成
 	 */
 	onReady: function() {

@@ -19,7 +19,7 @@ Component({
 	pageLifetimes: {
 		// 组件所在页面的生命周期函数
 		show() {
-			console.log(this)
+			//console.log(this)
 		},
 		hide() {},
 		resize() {},
@@ -36,7 +36,17 @@ Component({
 	 */
 	methods: {
 		onLoad() {
-			console.log(this)
-		}
+			//console.log(this)
+		},
+		/**
+		 * Item事件点击处理
+		 */
+		onItemClick(res) {
+			console.log(res.currentTarget.id)
+			let curIndex = res.currentTarget.id
+			wx.navigateTo({
+				url: this.data.showList[curIndex].path
+			})
+		},
 	}
 })
