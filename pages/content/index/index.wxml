@@ -1,2 +1,6 @@
 <!--pages/content/index/index.wxml-->
-<text>pages/content/index/index.wxml</text>
+<view class="ci-main-box">
+	<view bindtap="onItemClick" class="ci-item-box" wx:for="{{showList}}" wx:key="" wx:for-index="index" id="{{index}}" wx:for-item="item">
+		<view class="ci-item-title">{{item.name}}</view>
+	</view>
+</view>

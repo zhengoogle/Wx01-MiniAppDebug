@@ -1,0 +1,5 @@
+/* pages/debug/miniapp/page-json/page-json.wxss */
+.pj-title{
+	width: 100%;
+	text-align: center;
+}

@@ -1,0 +1,6 @@
+<!--pages/debug/miniapp/0miniapp/0miniapp.wxml-->
+<view class="ma-main-box">
+	<view bindtap="onItemClick" class="ma-item-box" wx:for="{{showList}}" wx:key="" wx:for-index="index" id="{{index}}" wx:for-item="item">
+		<view class="ma-item-title">{{item.name}}</view>
+	</view>
+</view>

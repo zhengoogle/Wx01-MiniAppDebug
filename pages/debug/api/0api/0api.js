@@ -1,4 +1,4 @@
-// pages/content/index/index.js
+// pages/debug/api/0api/0api.js
 Page({
 
 	/**
@@ -6,15 +6,9 @@ Page({
 	 */
 	data: {
 		showList: [{
-			name: '小程序API',
-			path: '/pages/debug/api/0api/0api'
-		}, {
-			name: '小程序框架',
-			path: '/pages/debug/miniapp/0miniapp/0miniapp'
-		}, {
-			name: '小程序组件',
-			path: '/pages/debug/view/0view/0view'
-		}]
+			name: 'ES6支持',
+			path: '/pages/debug/api/es6/0es6/0es6'
+		}, ]
 	},
 
 	/**
@@ -31,7 +25,7 @@ Page({
 		console.log(res.currentTarget.id)
 		let curIndex = res.currentTarget.id
 		wx.navigateTo({
-			url:this.data.showList[curIndex].path
+			url: this.data.showList[curIndex].path
 		})
 	},
 
@@ -79,7 +73,6 @@ Page({
 
 	/**
 	 * 用户点击右上角分享
-	 * 不允许分享需要删除！！！
 	 */
 	onShareAppMessage: function() {
 

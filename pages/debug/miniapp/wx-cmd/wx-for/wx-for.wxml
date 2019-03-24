@@ -1,0 +1,21 @@
+<!--pages/debug/miniapp/wx-cmd/wx-for/wx-for.wxml-->
+<view>
+	<!-- 1.默认方式 -->
+	<view class="wf-item-box">
+		<view wx:for="{{arrList0}}">
+			{{index}}: {{item.name}}
+		</view>
+	</view>
+	<!-- 2.属性显示声明 -->
+	<view class="wf-item-box">
+		<view wx:for="{{arrList1}}" wx:key="" wx:for-index="index" wx:for-item="item" id="{{index}}" bindtap="onItemClick" class="wf-list1-item">
+			{{index}}: {{item.name}}
+		</view>
+	</view>
+	<!-- 3.wx:key -->
+	<view class="wf-item-box">
+		<view wx:for="{{arrList2}}" wx:key="id" wx:for-index="idx" wx:for-item="mItem">
+			{{idx}}: {{mItem.name}}: {{id}}
+		</view>
+	</view>
+</view>

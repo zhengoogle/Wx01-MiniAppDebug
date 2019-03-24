@@ -1,20 +1,28 @@
 {
   "pages": [
-		"pages/content/index/index",
+		"pages/debug/api/es6/promise/Promise",
+    "pages/debug/api/0api/0api",
+    "pages/debug/miniapp/0miniapp/0miniapp",
+    "pages/debug/view/0view/0view",
+    "pages/content/index/index",
     "pages/index/index",
     "pages/home/view/ViewPage",
     "pages/home/api/APIPage",
     "pages/logs/logs",
-    "pages/debug/api/es6/promise/Promise",
+    "pages/debug/miniapp/wx-cmd/wx-for/wx-for",
+    "pages/debug/miniapp/page-json/page-json",
+    "pages/debug/view/fixed/tab/Tab",
+    "pages/debug/view/advance/webview/WebView",
+		"pages/debug/api/es6/0es6/0es6",
+    
     "pages/debug/api/es6/async/Async",
     "pages/debug/api/login/OpenId/OpenId",
     "pages/debug/api/login/WxLogin/WxLogin",
-    "pages/debug/view/advance/webview/WebView",
     "pages/debug/api/router/jump/WxRouter",
     "pages/debug/api/network/request/request",
-    "pages/debug/view/fixed/tab/Tab",
     "pages/debug/api/router/JumpWxApp/JumpWxApp",
-    "pages/debug/api/router/JumpPage/JumpPage"
+    "pages/debug/api/router/JumpPage/JumpPage",
+    "pages/debug/miniapp/wx-cmd/0wxcmd/0wxcmd"
     
   ],
   "window": {
@@ -30,16 +38,22 @@
     "backgroundColor": "#ffffff",
     "list": [
       {
-        "pagePath": "pages/home/view/ViewPage",
-        "iconPath": "image/icon_component.png",
-        "selectedIconPath": "image/icon_component_HL.png",
-        "text": "组件"
-      },
-      {
-        "pagePath": "pages/home/api/APIPage",
+        "pagePath": "pages/debug/api/0api/0api",
         "iconPath": "image/icon_API.png",
         "selectedIconPath": "image/icon_API_HL.png",
         "text": "API"
+      },
+      {
+        "pagePath": "pages/debug/miniapp/0miniapp/0miniapp",
+        "iconPath": "image/icon_app_def.png",
+        "selectedIconPath": "image/icon_app_sel.png",
+        "text": "框架"
+      },
+      {
+        "pagePath": "pages/debug/view/0view/0view",
+        "iconPath": "image/icon_component.png",
+        "selectedIconPath": "image/icon_component_HL.png",
+        "text": "组件"
       }
     ]
   },

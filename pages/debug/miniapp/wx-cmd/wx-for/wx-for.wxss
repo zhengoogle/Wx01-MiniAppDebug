@@ -1,0 +1,10 @@
+/* pages/debug/miniapp/wx-cmd/wx-for/wx-for.wxss */
+.wf-item-box{
+	margin: 10rpx;
+	border: 1rpx solid #EEE;
+}
+
+.wf-list1-item{
+	padding: 2rpx;
+	border: 1rpx solid #EEE;
+}

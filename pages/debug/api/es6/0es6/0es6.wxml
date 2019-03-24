@@ -1,0 +1,6 @@
+<!--pages/debug/api/es6/0es6/0es6.wxml-->
+<view class="we-main-box">
+	<view bindtap="onItemClick" class="we-item-box" wx:for="{{showList}}" wx:key="" wx:for-index="index" id="{{index}}" wx:for-item="item">
+		<view class="we-item-title">{{item.name}}</view>
+	</view>
+</view>

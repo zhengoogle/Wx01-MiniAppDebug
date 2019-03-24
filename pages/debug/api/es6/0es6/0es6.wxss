@@ -1,13 +1,13 @@
-/* pages/content/index/index.wxss */
-.ci-main-box{
+/* pages/debug/api/es6/0es6/0es6.wxss */
+.we-main-box{
 	width: 100%;
 }
 
-.ci-item-box{
+.we-item-box{
 	margin: 10rpx;
 }
 
-.ci-item-title{
+.we-item-title{
 	padding: 8rpx;
 	text-decoration:underline;
 	color: blue;
