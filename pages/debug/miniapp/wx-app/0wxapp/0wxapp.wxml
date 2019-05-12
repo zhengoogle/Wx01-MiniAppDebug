@@ -1,0 +1,2 @@
+<!--pages/debug/miniapp/wx-app/0wxapp/0wxapp.wxml-->
+<list-view show-list="{{showList}}"></list-view>
