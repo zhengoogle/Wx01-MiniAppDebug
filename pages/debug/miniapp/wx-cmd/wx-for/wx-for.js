@@ -40,6 +40,10 @@ Page({
 	 * 3.wx:key?
 	 * ---如果列表中项目的位置会动态改变或者有新的项目添加到列表中，并且希望列表中的项目保持自己的特征和状态
 	 * ---如不提供 wx:key，会报一个 warning， 如果明确知道该列表是静态，或者不必关注其顺序，可以选择忽略。
+	 * 
+	 * 总结：
+	 * #1.列表渲染小程序与VUE数据访问，小程序数据访问都用{{}}，VUE则值使用{{}}，属性使用""；
+	 * #2.指定item、index方式不同，小程序使用wx:for-item/wx:for-index单独指定，VUE使用v-for="(item,index) in items"
 	 * docs:
 	 * ---https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxml/list.html
 	 */
