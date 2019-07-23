@@ -1,0 +1,10 @@
+<!--pages/debug/view/layout/scroll-view/scroll-view.wxml-->
+<view class="sv-root" id="svRoot">
+	<scroll-view class="sv-clz" id="svScroll" scroll-y="{{scrollY}}"
+        bindscrolltoupper="upperScroll" bindscrolltolower="lowerScroll" bindscroll="scrollScroll"
+        scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+		<view class="sv-card-clz0" id="svElm0"></view>
+		<view class="sv-card-clz1" id="svElm1"></view>
+		<view class="sv-card-clz2" id="svElm2"></view>
+	</scroll-view>
+</view>

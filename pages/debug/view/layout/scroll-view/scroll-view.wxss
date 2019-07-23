@@ -1,0 +1,35 @@
+/* pages/debug/view/layout/scroll-view/scroll-view.wxss */
+/* common css */
+/* #2.滚动条隐藏 */
+/* 需要手机查看 */
+/* https://www.jianshu.com/p/8a73f3a35dfe */
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    color: transparent;
+}
+
+.sv-root {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.sv-clz {
+    height: 100%;
+}
+
+.sv-card-clz0 {
+    height: 650rpx;
+    background: #EEEEEE;
+}
+
+.sv-card-clz1 {
+    height: 650rpx;
+    background: #5533FF;
+}
+
+.sv-card-clz2 {
+    height: 650rpx;
+    background: #EEFFEE;
+}
