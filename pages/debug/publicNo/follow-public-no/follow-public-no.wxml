@@ -1,0 +1,14 @@
+<!--pages/debug/publicNo/follow-public-no/follow-public-no.wxml-->
+<view class="fpn-root">
+  <view>关注公众号</view>
+  <!-- 1.默认展示 -->
+  <!-- 仅支持单个展示 -->
+  <view>
+    <official-account></official-account>
+  </view>
+  <!-- 2.定制大小 -->
+  <!-- 只能小一点点 -->
+  <view>
+    <!-- <official-account style="position:absolute;top:50rpx;width:500rpx;"></official-account> -->
+  </view>
+</view>

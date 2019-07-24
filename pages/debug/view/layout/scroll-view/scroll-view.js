@@ -4,6 +4,8 @@
  * --- scroll-view
  * docs
  * --- https://developers.weixin.qq.com/miniprogram/dev/component/scroll-view.html
+ * blogs
+ * ---NG
  * 
  * usage scene
  * #1.滚动到指定位置

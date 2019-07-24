@@ -1,82 +1,85 @@
 {
-	"pages": [
-		"pages/debug/view/layout/scroll-view/scroll-view",
-		"pages/debug/miniapp/wx-cmd/wx-for/wx-for",
-		"pages/debug/miniapp/wx-app/0wxapp/0wxapp",
-		"pages/debug/miniapp/wx-page/0wxpage/0wxpage",
-		"pages/debug/miniapp/app/0app/0app",
-		"pages/debug/api/0api/0api",
-		"pages/content/index/index",
-		"pages/debug/api/es6/promise/Promise",
-		"pages/debug/miniapp/0miniapp/0miniapp",
-		"pages/debug/view/0view/0view",
-		"pages/index/index",
-		"pages/home/view/ViewPage",
-		"pages/home/api/APIPage",
-		"pages/logs/logs",
-		"pages/debug/miniapp/wx-page/page-json/page-json",
-		"pages/debug/view/fixed/tab/Tab",
-		"pages/debug/view/advance/webview/WebView",
-		"pages/debug/api/es6/0es6/0es6",
-		"pages/debug/api/es6/async/Async",
-		"pages/debug/api/login/OpenId/OpenId",
-		"pages/debug/api/login/WxLogin/WxLogin",
-		"pages/debug/api/router/jump/WxRouter",
-		"pages/debug/api/network/request/request",
-		"pages/debug/api/router/JumpWxApp/JumpWxApp",
-		"pages/debug/api/router/JumpPage/JumpPage",
-		"pages/debug/miniapp/wx-cmd/0wxcmd/0wxcmd",
-		"pages/debug/miniapp/app/wx-lib/wx-lib",
-		"pages/debug/miniapp/app/wx-pkg/wx-pkg",
-		"pages/debug/miniapp/app/wx-limit/wx-limit",
-		"pages/debug/miniapp/wx-app/app-js/app-js",
-		"pages/debug/miniapp/wx-app/app-json/app-json",
-		"pages/debug/miniapp/wx-app/app-wxss/app-wxss",
-		"pages/debug/api/storage/async/storage-async",
-		"pages/debug/api/storage/sync/storage-sync",
-		"pages/debug/view/wechat/checkbox/checkbox",
-		"pages/debug/view/wechat/radio-group/radio-group",
-		"pages/debug/view/wechat/checkbox-group/checkbox-group",
-		"pages/debug/view/wechat/radio/radio",
-		"pages/debug/view/advance/component/comp-test",
-		"pages/debug/miniapp/wx-cmd/wx-if/wx-if"
-	],
-	"window": {
-		"backgroundTextStyle": "light",
-		"navigationBarBackgroundColor": "#fff",
-		"navigationBarTitleText": "WeChat",
-		"navigationBarTextStyle": "black"
-	},
-	"tabBar": {
-		"color": "#7A7E83",
-		"selectedColor": "#3cc51f",
-		"borderStyle": "black",
-		"backgroundColor": "#ffffff",
-		"list": [{
-				"pagePath": "pages/debug/api/0api/0api",
-				"iconPath": "image/icon_API.png",
-				"selectedIconPath": "image/icon_API_HL.png",
-				"text": "API"
-			},
-			{
-				"pagePath": "pages/debug/miniapp/0miniapp/0miniapp",
-				"iconPath": "image/icon_app_def.png",
-				"selectedIconPath": "image/icon_app_sel.png",
-				"text": "框架"
-			},
-			{
-				"pagePath": "pages/debug/view/0view/0view",
-				"iconPath": "image/icon_component.png",
-				"selectedIconPath": "image/icon_component_HL.png",
-				"text": "组件"
-			}
-		]
-	},
-	"networkTimeout": {
-		"request": 10000,
-		"connectSocket": 10000,
-		"uploadFile": 10000,
-		"downloadFile": 10000
-	},
-	"sitemapLocation": "sitemap.json"
+  "pages": [
+    "pages/debug/publicNo/follow-by-web/follow-by-web",
+    "pages/debug/publicNo/follow-public-no/follow-public-no",
+    "pages/debug/view/layout/scroll-view/scroll-view",
+    "pages/debug/miniapp/wx-cmd/wx-for/wx-for",
+    "pages/debug/miniapp/wx-app/0wxapp/0wxapp",
+    "pages/debug/miniapp/wx-page/0wxpage/0wxpage",
+    "pages/debug/miniapp/app/0app/0app",
+    "pages/debug/api/0api/0api",
+    "pages/content/index/index",
+    "pages/debug/api/es6/promise/Promise",
+    "pages/debug/miniapp/0miniapp/0miniapp",
+    "pages/debug/view/0view/0view",
+    "pages/index/index",
+    "pages/home/view/ViewPage",
+    "pages/home/api/APIPage",
+    "pages/logs/logs",
+    "pages/debug/miniapp/wx-page/page-json/page-json",
+    "pages/debug/view/fixed/tab/Tab",
+    "pages/debug/view/advance/webview/WebView",
+    "pages/debug/api/es6/0es6/0es6",
+    "pages/debug/api/es6/async/Async",
+    "pages/debug/api/login/OpenId/OpenId",
+    "pages/debug/api/login/WxLogin/WxLogin",
+    "pages/debug/api/router/jump/WxRouter",
+    "pages/debug/api/network/request/request",
+    "pages/debug/api/router/JumpWxApp/JumpWxApp",
+    "pages/debug/api/router/JumpPage/JumpPage",
+    "pages/debug/miniapp/wx-cmd/0wxcmd/0wxcmd",
+    "pages/debug/miniapp/app/wx-lib/wx-lib",
+    "pages/debug/miniapp/app/wx-pkg/wx-pkg",
+    "pages/debug/miniapp/app/wx-limit/wx-limit",
+    "pages/debug/miniapp/wx-app/app-js/app-js",
+    "pages/debug/miniapp/wx-app/app-json/app-json",
+    "pages/debug/miniapp/wx-app/app-wxss/app-wxss",
+    "pages/debug/api/storage/async/storage-async",
+    "pages/debug/api/storage/sync/storage-sync",
+    "pages/debug/view/wechat/checkbox/checkbox",
+    "pages/debug/view/wechat/radio-group/radio-group",
+    "pages/debug/view/wechat/checkbox-group/checkbox-group",
+    "pages/debug/view/wechat/radio/radio",
+    "pages/debug/view/advance/component/comp-test",
+    "pages/debug/miniapp/wx-cmd/wx-if/wx-if"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/debug/api/0api/0api",
+        "iconPath": "image/icon_API.png",
+        "selectedIconPath": "image/icon_API_HL.png",
+        "text": "API"
+      },
+      {
+        "pagePath": "pages/debug/miniapp/0miniapp/0miniapp",
+        "iconPath": "image/icon_app_def.png",
+        "selectedIconPath": "image/icon_app_sel.png",
+        "text": "框架"
+      },
+      {
+        "pagePath": "pages/debug/view/0view/0view",
+        "iconPath": "image/icon_component.png",
+        "selectedIconPath": "image/icon_component_HL.png",
+        "text": "组件"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "sitemapLocation": "sitemap.json"
 }
