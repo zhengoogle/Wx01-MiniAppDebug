@@ -1,0 +1,23 @@
+{
+  "name": "wx01-miniappdebug",
+  "version": "1.0.0",
+  "description": "wechat mini program debug",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhengoogle/Wx01-MiniAppDebug.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhengoogle/Wx01-MiniAppDebug/issues"
+  },
+  "homepage": "https://github.com/zhengoogle/Wx01-MiniAppDebug#readme",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "miniprogram-sm-crypto": "0.0.6"
+  }
+}

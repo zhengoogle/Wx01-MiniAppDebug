@@ -1,5 +1,11 @@
 {
   "pages": [
+    "pages/0demo/0index/0index",
+    "pages/debug/miniapp/wx-cmd/0wxcmd/0wxcmd",
+    "pages/index/index",
+    "pages/content/index/index",
+    "pages/debug/miniapp/wx-app/app-unionid/app-unionid",
+    "pages/debug/publicNo/get-unionid/get-unionid",
     "pages/debug/publicNo/follow-by-web/follow-by-web",
     "pages/debug/publicNo/follow-public-no/follow-public-no",
     "pages/debug/view/layout/scroll-view/scroll-view",
@@ -8,11 +14,9 @@
     "pages/debug/miniapp/wx-page/0wxpage/0wxpage",
     "pages/debug/miniapp/app/0app/0app",
     "pages/debug/api/0api/0api",
-    "pages/content/index/index",
     "pages/debug/api/es6/promise/Promise",
     "pages/debug/miniapp/0miniapp/0miniapp",
     "pages/debug/view/0view/0view",
-    "pages/index/index",
     "pages/home/view/ViewPage",
     "pages/home/api/APIPage",
     "pages/logs/logs",
@@ -27,7 +31,6 @@
     "pages/debug/api/network/request/request",
     "pages/debug/api/router/JumpWxApp/JumpWxApp",
     "pages/debug/api/router/JumpPage/JumpPage",
-    "pages/debug/miniapp/wx-cmd/0wxcmd/0wxcmd",
     "pages/debug/miniapp/app/wx-lib/wx-lib",
     "pages/debug/miniapp/app/wx-pkg/wx-pkg",
     "pages/debug/miniapp/app/wx-limit/wx-limit",
@@ -41,7 +44,8 @@
     "pages/debug/view/wechat/checkbox-group/checkbox-group",
     "pages/debug/view/wechat/radio/radio",
     "pages/debug/view/advance/component/comp-test",
-    "pages/debug/miniapp/wx-cmd/wx-if/wx-if"
+    "pages/debug/miniapp/wx-cmd/wx-if/wx-if",
+    "pages/0demo/0demo/0demo"
   ],
   "window": {
     "backgroundTextStyle": "light",

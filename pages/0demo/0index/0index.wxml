@@ -1,7 +1,8 @@
-<!--pages/debug/miniapp/wx-cmd/0wxcmd/0wxcmd.wxml-->
+<!--pages/0demo/0index/0index.wxml-->
 <view class="wc-main-box">
     <view bindtap="onItemClick" class="wc-item-box" wx:for="{{showList}}" wx:key="" wx:for-index="index" id="{{index}}"
           wx:for-item="item">
         <view class="wc-item-title">{{item.name}}</view>
     </view>
 </view>
+
