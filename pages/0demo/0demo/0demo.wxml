@@ -1,2 +1,13 @@
 <!--pages/0demo/0demo/0demo.wxml-->
-<text>pages/0demo/0demo/0demo.wxml</text>
+<view class="page-padding">
+    <view class="demo-card">
+        <text class="demo-title">1.动态绑定style</text>
+        <view bindtap="onStyleTvClick" style="color: {{styleFontColor}}">这是style改变的，点击改变颜色(click.me)</view>
+    </view>
+    <view class="demo-card">
+        <text class="demo-title">2.动态绑定class</text>
+        <view bindtap="onClazzTvClick"
+              class="{{classFontColor == 'blue' ? 'demo-font-blue' : 'demo-font-red'}}">这是class改变的，点击改变颜色(click.me)
+        </view>
+    </view>
+</view>

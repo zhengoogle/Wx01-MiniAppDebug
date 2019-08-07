@@ -11,9 +11,12 @@ Page({
    */
   data: {
     showList: [{
-      name: '1.动态绑定样式',
+      name: '1.wx动态绑定样式',
       path: '/pages/0demo/0demo/0demo'
-    },]
+    },{
+      name: '2.小程序ScrollView',
+      path: '/pages/1demo'
+    }]
   },
 
   /**

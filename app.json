@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/0demo/0demo/0demo",
     "pages/0demo/0index/0index",
     "pages/debug/miniapp/wx-cmd/0wxcmd/0wxcmd",
     "pages/index/index",
@@ -44,8 +45,7 @@
     "pages/debug/view/wechat/checkbox-group/checkbox-group",
     "pages/debug/view/wechat/radio/radio",
     "pages/debug/view/advance/component/comp-test",
-    "pages/debug/miniapp/wx-cmd/wx-if/wx-if",
-    "pages/0demo/0demo/0demo"
+    "pages/debug/miniapp/wx-cmd/wx-if/wx-if"
   ],
   "window": {
     "backgroundTextStyle": "light",

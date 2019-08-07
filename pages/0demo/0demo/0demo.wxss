@@ -1,1 +1,16 @@
 /* pages/0demo/0demo/0demo.wxss */
+.demo-title{
+    color: #1cb2ff;
+}
+
+.demo-card{
+    margin-bottom: 20rpx;
+}
+
+.demo-font-blue{
+    color: blue;
+}
+
+.demo-font-red{
+    color: red;
+}
