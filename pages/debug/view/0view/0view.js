@@ -5,7 +5,16 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    singleList: [{
+      name: '1.自定义组件',
+      path: '/pages/debug/view/custom/custom-page/custom-page'
+    },{
+      name: '2.布局容器',
+      path: '/pages'
+    },{
+      name: '3.输入组件',
+      path: '/pages'
+    }]
   },
 
   /**

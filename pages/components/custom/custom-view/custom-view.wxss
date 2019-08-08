@@ -1,0 +1,11 @@
+/* pages/components/custom/custom-page/custom-page.wxss */
+.cv-main-box{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20rpx;
+    background: #38b5ee;
+}
+
+.cv-btn{
+    margin: 20rpx 0;
+}

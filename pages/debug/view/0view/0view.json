@@ -3,5 +3,8 @@
   "navigationBarTextStyle": "black",
   "navigationBarTitleText": "小程序组件",
   "backgroundColor": "#eeeeee",
-  "backgroundTextStyle": "light"
+  "backgroundTextStyle": "light",
+  "usingComponents": {
+    "single-list": "/pages/components/demo/single-list/single-list"
+  }
 }

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "自定义组件",
+  "usingComponents": {
+    "custom-view": "/pages/components/custom/custom-view/custom-view"
+  }
+}

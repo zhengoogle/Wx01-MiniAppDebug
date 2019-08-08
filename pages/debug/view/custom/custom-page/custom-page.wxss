@@ -1,0 +1,11 @@
+/* pages/debug/view/custom/custom-page/custom-page.wxss */
+.cp-main-box{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20rpx;
+    background: #27b940;
+}
+
+.cp-btn{
+    margin: 20rpx 0;
+}

@@ -1,11 +1,12 @@
 {
   "pages": [
+    "pages/debug/view/custom/custom-page/custom-page",
     "pages/debug/api/0api/0api",
+
     "pages/debug/miniapp/wx-cmd/0wxcmd/0wxcmd",
     "pages/0demo/0index/0index",
     "pages/0demo/0demo/0demo",
     "pages/index/index",
-
     "pages/debug/miniapp/wx-app/app-unionid/app-unionid",
     "pages/debug/publicNo/get-unionid/get-unionid",
     "pages/debug/publicNo/follow-by-web/follow-by-web",
@@ -15,7 +16,6 @@
     "pages/debug/miniapp/wx-app/0wxapp/0wxapp",
     "pages/debug/miniapp/wx-page/0wxpage/0wxpage",
     "pages/debug/miniapp/app/0app/0app",
-
     "pages/debug/api/es6/promise/Promise",
     "pages/debug/miniapp/0miniapp/0miniapp",
     "pages/debug/view/0view/0view",
