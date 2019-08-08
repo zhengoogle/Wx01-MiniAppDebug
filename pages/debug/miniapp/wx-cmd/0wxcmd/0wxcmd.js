@@ -5,9 +5,12 @@ Page({
 	 * 页面的初始数据
 	 */
 	data: {
-		showList: [{
-			name: 'wx:for循环指令',
+		singleList: [{
+			name: '1.wx:for循环指令',
 			path: '/pages/debug/miniapp/wx-cmd/wx-for/wx-for'
+		},{
+			name: 'style-class动态样式绑定',
+			path: '/pages/debug/miniapp/wx-cmd/bind-style/bind-style'
 		},]
 	},
 
@@ -16,17 +19,6 @@ Page({
 	 */
 	onLoad: function(options) {
 
-	},
-
-	/**
-	 * Item事件点击处理
-	 */
-	onItemClick(res) {
-		console.log(res.currentTarget.id)
-		let curIndex = res.currentTarget.id
-		wx.navigateTo({
-			url: this.data.showList[curIndex].path
-		})
 	},
 
 	/**

@@ -1,4 +1,4 @@
-// pages/0demo/0demo/0demo.js
+// pages/debug/miniapp/wx-cmd/bind-style/bind-style.js
 /**
  * 小程序动态绑定样式方式
  * 小程序动态设置样式两种方式

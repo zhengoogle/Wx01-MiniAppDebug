@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "navigationBarTitleText": "demo index",
+  "usingComponents": {
+    "single-list": "/pages/components/demo/single-list/single-list"
+  }
 }

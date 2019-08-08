@@ -5,12 +5,12 @@ Page({
 	 * 页面的初始数据
 	 */
 	data: {
-		showList: [{
+		singleList: [{
 			name: '小程序指令',
 			path: '/pages/debug/miniapp/wx-cmd/0wxcmd/0wxcmd'
 		},{
 			name: '小程序APP',
-			path: '/pages/debug/miniapp/wx-cmd/0wxcmd/0wxcmd'
+			path: '/pages'
 		},]
 	},
 
@@ -19,17 +19,6 @@ Page({
 	 */
 	onLoad: function(options) {
 
-	},
-
-	/**
-	 * Item事件点击处理
-	 */
-	onItemClick(res) {
-		console.log(res.currentTarget.id)
-		let curIndex = res.currentTarget.id
-		wx.navigateTo({
-			url: this.data.showList[curIndex].path
-		})
 	},
 
 	/**

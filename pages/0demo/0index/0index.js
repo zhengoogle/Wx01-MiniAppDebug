@@ -3,6 +3,15 @@
  * 小程序工程模板参考页面
  * API dev@2019.08.07
  * TODO 一级卡片/二级卡片设计
+ *
+ View scroll
+ 两个View scroll嵌套事件穿透问题
+ @设置上层绑定catchtouchmove事件
+ 页面滚动事件
+ @onPageScroll/onReachBottom
+ 原生ScrollView与下拉共存问题
+
+ 组件模板
  */
 Page({
 
@@ -10,12 +19,15 @@ Page({
    * 页面的初始数据
    */
   data: {
-    showList: [{
+    singleList: [{
       name: '1.wx动态绑定样式',
       path: '/pages/0demo/0demo/0demo'
     },{
       name: '2.小程序ScrollView',
-      path: '/pages/1demo'
+      path: '/pages'
+    },{
+      name: '3.小程序模板组件',
+      path: '/pages'
     }]
   },
 
@@ -24,17 +36,6 @@ Page({
    */
   onLoad: function (options) {
 
-  },
-
-  /**
-   * Item事件点击处理
-   */
-  onItemClick(res) {
-    console.log(res.currentTarget.id)
-    let curIndex = res.currentTarget.id
-    wx.navigateTo({
-      url: this.data.showList[curIndex].path
-    })
   },
 
   /**

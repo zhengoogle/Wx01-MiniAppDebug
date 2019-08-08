@@ -1,0 +1,14 @@
+<!--pages/debug/miniapp/wx-cmd/bind-style/bind-style.wxml-->
+<view class="page-padding">
+    <view class="bsty-card">
+        <text class="bsty-title">1.动态绑定style</text>
+        <view bindtap="onStyleTvClick" style="color: {{styleFontColor}}">这是style改变的，点击改变颜色(click.me)</view>
+    </view>
+    <view class="bsty-card">
+        <text class="bsty-title">2.动态绑定class</text>
+        <view bindtap="onClazzTvClick"
+              class="{{classFontColor == 'blue' ? 'bsty-font-blue' : 'bsty-font-red'}}">这是class改变的，点击改变颜色(click.me)
+        </view>
+    </view>
+</view>
+

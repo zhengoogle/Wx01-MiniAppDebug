@@ -1,8 +1,9 @@
 {
   "pages": [
-    "pages/0demo/0demo/0demo",
-    "pages/0demo/0index/0index",
+    "pages/debug/api/0api/0api",
     "pages/debug/miniapp/wx-cmd/0wxcmd/0wxcmd",
+    "pages/0demo/0index/0index",
+    "pages/0demo/0demo/0demo",
     "pages/index/index",
     "pages/content/index/index",
     "pages/debug/miniapp/wx-app/app-unionid/app-unionid",
@@ -14,7 +15,7 @@
     "pages/debug/miniapp/wx-app/0wxapp/0wxapp",
     "pages/debug/miniapp/wx-page/0wxpage/0wxpage",
     "pages/debug/miniapp/app/0app/0app",
-    "pages/debug/api/0api/0api",
+
     "pages/debug/api/es6/promise/Promise",
     "pages/debug/miniapp/0miniapp/0miniapp",
     "pages/debug/view/0view/0view",
@@ -45,7 +46,8 @@
     "pages/debug/view/wechat/checkbox-group/checkbox-group",
     "pages/debug/view/wechat/radio/radio",
     "pages/debug/view/advance/component/comp-test",
-    "pages/debug/miniapp/wx-cmd/wx-if/wx-if"
+    "pages/debug/miniapp/wx-cmd/wx-if/wx-if",
+    "pages/debug/miniapp/wx-cmd/bind-style/bind-style"
   ],
   "window": {
     "backgroundTextStyle": "light",
