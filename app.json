@@ -5,7 +5,7 @@
     "pages/0demo/0index/0index",
     "pages/0demo/0demo/0demo",
     "pages/index/index",
-    "pages/content/index/index",
+
     "pages/debug/miniapp/wx-app/app-unionid/app-unionid",
     "pages/debug/publicNo/get-unionid/get-unionid",
     "pages/debug/publicNo/follow-by-web/follow-by-web",
@@ -19,8 +19,6 @@
     "pages/debug/api/es6/promise/Promise",
     "pages/debug/miniapp/0miniapp/0miniapp",
     "pages/debug/view/0view/0view",
-    "pages/home/view/ViewPage",
-    "pages/home/api/APIPage",
     "pages/logs/logs",
     "pages/debug/miniapp/wx-page/page-json/page-json",
     "pages/debug/view/fixed/tab/Tab",
