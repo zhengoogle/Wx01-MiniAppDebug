@@ -1,0 +1,8 @@
+<!--pages/debug/view/layout/pull-down/pull-down.wxml-->
+<text>下拉刷新</text>
+<scroll-view bindscroll="onScroll">
+    <view class="pd-box-sty0"></view>
+    <view class="pd-box-sty1"></view>
+    <view class="pd-box-sty2"></view>
+</scroll-view>
+

@@ -1,4 +1,4 @@
-// pages/debug/view/0view/0view.js
+// pages/debug/view/custom/0custom/0custom.js
 Page({
 
   /**
@@ -7,13 +7,10 @@ Page({
   data: {
     singleList: [{
       name: '1.自定义组件',
-      path: '/pages/debug/view/custom/0custom/0custom'
+      path: '/pages/debug/view/custom/custom-page/custom-page'
     },{
-      name: '2.布局容器',
-      path: '/pages/debug/view/layout/0layout/0layout'
-    },{
-      name: '3.输入组件',
-      path: '/pages'
+      name: '2.富文本解析',
+      path: '/pages/debug/view/custom/rich-text/rich-text'
     }]
   },
 

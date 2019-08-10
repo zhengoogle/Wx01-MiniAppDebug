@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="583cdcee-fa0f-4796-a76d-b1472e98113b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/debug/view/custom/custom-page/custom-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/debug/view/custom/custom-page/custom-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/0demo/0demo/0demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/0demo/0demo/0demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/debug/view/0view/0view.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/debug/view/0view/0view.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/debug/view/layout/scroll-view/scroll-view.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/debug/view/layout/scroll-view/scroll-view.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/debug/view/layout/scroll-view/scroll-view.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/debug/view/layout/scroll-view/scroll-view.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/debug/view/layout/scroll-view/scroll-view.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/debug/view/layout/scroll-view/scroll-view.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/debug/view/layout/scroll-view/scroll-view.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/debug/view/layout/scroll-view/scroll-view.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,17 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/debug/view/custom/custom-page/custom-page.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+            <state relative-caret-position="312">
+              <caret line="13" column="51" lean-forward="true" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -48,6 +46,7 @@
       <find>content</find>
       <find>list-view</find>
       <find>onItemClick</find>
+      <find>scroll</find>
     </findStrings>
     <replaceStrings>
       <replace>bsty</replace>
@@ -59,13 +58,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pages/debug/miniapp/wx-app/app-unionid/app-unionid.js" />
-        <option value="$PROJECT_DIR$/pages/logs/logs.json" />
-        <option value="$PROJECT_DIR$/pages/0demo/0demo/0demo.json" />
-        <option value="$PROJECT_DIR$/app.wxss" />
         <option value="$PROJECT_DIR$/pages/0demo/0demo/0demo.wxml" />
         <option value="$PROJECT_DIR$/pages/0demo/0demo/0demo.wxss" />
-        <option value="$PROJECT_DIR$/pages/0demo/0demo/0demo.js" />
         <option value="$PROJECT_DIR$/pages/0demo/0index/0index.json" />
         <option value="$PROJECT_DIR$/pages/components/demo/single-list/single-list.wxss" />
         <option value="$PROJECT_DIR$/pages/components/demo/single-list/single-list.wxml" />
@@ -87,7 +81,6 @@
         <option value="$PROJECT_DIR$/pages/debug/miniapp/0miniapp/0miniapp.js" />
         <option value="$PROJECT_DIR$/pages/debug/view/0view/0view.json" />
         <option value="$PROJECT_DIR$/pages/debug/view/0view/0view.wxml" />
-        <option value="$PROJECT_DIR$/pages/debug/view/0view/0view.js" />
         <option value="$PROJECT_DIR$/pages/debug/view/custom/custom-view/custom-view.js" />
         <option value="$PROJECT_DIR$/pages/debug/view/custom/custom-view/custom-view.wxml" />
         <option value="$PROJECT_DIR$/pages/debug/view/custom/custom-view/custom-view.json" />
@@ -98,18 +91,24 @@
         <option value="$PROJECT_DIR$/pages/debug/view/custom/custom-page/custom-page.wxml" />
         <option value="$PROJECT_DIR$/pages/components/custom/custom-view/custom-view.js" />
         <option value="$PROJECT_DIR$/pages/components/custom/rich-text/rich-text.js" />
-        <option value="$PROJECT_DIR$/app.json" />
         <option value="$PROJECT_DIR$/pages/debug/view/custom/custom-page/custom-page.js" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/Wx01-MiniAppDebug.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/pages/debug/view/custom/0custom/0custom.wxml" />
+        <option value="$PROJECT_DIR$/pages/debug/view/custom/0custom/0custom.json" />
+        <option value="$PROJECT_DIR$/pages/debug/view/custom/0custom/0custom.js" />
+        <option value="$PROJECT_DIR$/pages/debug/view/0view/0view.js" />
+        <option value="$PROJECT_DIR$/pages/debug/view/layout/0layout/0layout.wxml" />
+        <option value="$PROJECT_DIR$/pages/debug/view/layout/0layout/0layout.json" />
+        <option value="$PROJECT_DIR$/pages/0demo/0demo/0demo.js" />
+        <option value="$PROJECT_DIR$/pages/debug/view/layout/0layout/0layout.js" />
+        <option value="$PROJECT_DIR$/pages/debug/view/layout/pull-down/pull-down.wxss" />
+        <option value="$PROJECT_DIR$/pages/debug/view/layout/scroll-view/scroll-view.json" />
+        <option value="$PROJECT_DIR$/pages/debug/view/layout/pull-down/pull-down.json" />
+        <option value="$PROJECT_DIR$/pages/debug/view/layout/pull-down/pull-down.wxml" />
+        <option value="$PROJECT_DIR$/pages/debug/view/layout/pull-down/pull-down.js" />
+        <option value="$PROJECT_DIR$/pages/debug/view/layout/scroll-view/scroll-view.wxss" />
+        <option value="$PROJECT_DIR$/pages/debug/view/layout/scroll-view/scroll-view.wxml" />
+        <option value="$PROJECT_DIR$/pages/debug/view/layout/scroll-view/scroll-view.js" />
+        <option value="$PROJECT_DIR$/app.json" />
       </list>
     </option>
   </component>
@@ -147,6 +146,13 @@
               <item name="Wx01-MiniAppDebug" type="b2602c69:ProjectViewProjectNode" />
               <item name="Wx01-MiniAppDebug" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="0demo" type="462c0819:PsiDirectoryNode" />
+              <item name="0demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Wx01-MiniAppDebug" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wx01-MiniAppDebug" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -175,7 +181,7 @@
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="debug" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Wx01-MiniAppDebug" type="b2602c69:ProjectViewProjectNode" />
@@ -189,14 +195,6 @@
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="template" type="462c0819:PsiDirectoryNode" />
               <item name="content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Wx01-MiniAppDebug" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Wx01-MiniAppDebug" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="list-view" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -244,15 +242,16 @@
       <workItem from="1565110344392" duration="1610000" />
       <workItem from="1565194525174" duration="3835000" />
       <workItem from="1565268275636" duration="9090000" />
-      <workItem from="1565425416521" duration="1107000" />
+      <workItem from="1565425416521" duration="8069000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16200000" />
+    <option name="totallyTimeSpent" value="23162000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22918862" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -278,114 +277,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/debug/api/0api/0api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/debug/miniapp/wx-cmd/bind-style/bind-style.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/debug/miniapp/wx-cmd/bind-style/bind-style.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/0demo/0demo/0demo.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/0demo/0demo/0demo.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="n#style#0;n#view#0;n#view#0;n#view#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/0demo/0demo/0demo.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/debug/miniapp/wx-cmd/bind-style/bind-style.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="74" selection-start-line="9" selection-start-column="70" selection-end-line="9" selection-end-column="74" />
-          <folding>
-            <element signature="n#style#0;n#view#0;n#view#0;n#view#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/debug/miniapp/wx-cmd/bind-style/bind-style.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/home/view/ViewPage.js" />
-    <entry file="file://$PROJECT_DIR$/pages/debug/miniapp/wx-cmd/0wxcmd/0wxcmd.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/debug/miniapp/0miniapp/0miniapp.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/debug/miniapp/wx-cmd/0wxcmd/0wxcmd.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/debug/miniapp/0miniapp/0miniapp.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/debug/miniapp/wx-cmd/0wxcmd/0wxcmd.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168">
-          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/content/index/index.js" />
     <entry file="file://$PROJECT_DIR$/pages/content/index/index.wxml" />
     <entry file="file://$PROJECT_DIR$/pages/content/index/index.json" />
@@ -413,13 +304,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/debug/view/0view/0view.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/0demo/0index/0index.wxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -431,13 +315,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/debug/view/0view/0view.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="39" lean-forward="true" selection-start-column="39" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -510,24 +387,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/debug/view/custom/custom-page/custom-view.json" />
     <entry file="file://$PROJECT_DIR$/pages/debug/view/custom/custom-page/custom-view.wxml" />
-    <entry file="file://$PROJECT_DIR$/pages/debug/view/0view/0view.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/0demo/0index/0index.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/debug/view/0view/0view.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -566,13 +429,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/0demo/0demo/0demo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/components/custom/custom-view/custom-view.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -580,17 +436,177 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/debug/view/custom/0custom/0custom.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="55" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/debug/view/custom/0custom/0custom.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/debug/view/0view/0view.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" lean-forward="true" selection-start-column="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/debug/view/custom/0custom/0custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/debug/view/custom/custom-page/custom-page.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        <state relative-caret-position="576">
+          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/debug/view/layout/0layout/0layout.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/debug/view/0view/0view.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/debug/view/layout/0layout/0layout.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/debug/view/0view/0view.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/debug/view/0view/0view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/debug/view/layout/0layout/0layout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/0demo/0demo/0demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/0demo/0demo/0demo.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/debug/view/layout/scroll-view/scroll-view.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/debug/view/layout/pull-down/pull-down.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/debug/view/layout/scroll-view/scroll-view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/debug/view/layout/scroll-view/scroll-view.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="n#style#0;n#scroll-view#0;n#scroll-view#0;n#view#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#0;n#scroll-view#0;n#scroll-view#0;n#view#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#1;n#scroll-view#0;n#scroll-view#0;n#view#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#scroll-view#0;n#view#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#0;n#scroll-view#0;n#view#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#1;n#scroll-view#0;n#view#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#5;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#0;n#view#5;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#0;n#view#0;n#view#5;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#1;n#view#0;n#view#5;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#scroll-view#0;n#scroll-view#0;n#view#6;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#0;n#scroll-view#0;n#scroll-view#0;n#view#6;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#1;n#scroll-view#0;n#scroll-view#0;n#view#6;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#7;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#0;n#view#7;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#0;n#scroll-view#0;n#view#7;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#1;n#scroll-view#0;n#view#7;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/debug/view/layout/scroll-view/scroll-view.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/debug/view/layout/pull-down/pull-down.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/debug/view/layout/pull-down/pull-down.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/debug/view/layout/pull-down/pull-down.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        <state relative-caret-position="312">
+          <caret line="13" column="51" lean-forward="true" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
         </state>
       </provider>
     </entry>

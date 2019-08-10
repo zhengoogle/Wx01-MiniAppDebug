@@ -6,6 +6,14 @@
  * --- style="display:{{displayPhoto}}"
  * --- class="operBtn {{select==1?'activeClass':''}}" bindtap='selectBtn' data-num="1"
  *
+ * 使用场景
+ * 1.NG
+ *
+ * issue
+ * #1.NG
+ *
+ * Router
+ * --- "/pages/0demo/0demo/0demo"
  */
 Page({
 

@@ -1,0 +1,2 @@
+<!--pages/debug/view/custom/0custom/0custom.wxml-->
+<single-list singleList="{{singleList}}"></single-list>

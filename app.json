@@ -1,8 +1,10 @@
 {
   "pages": [
-    "pages/debug/view/custom/rich-text/rich-text",
     "pages/debug/api/0api/0api",
-
+    "pages/debug/view/layout/scroll-view/scroll-view",
+    "pages/debug/view/layout/pull-down/pull-down",
+    "pages/debug/view/custom/0custom/0custom",
+    "pages/debug/view/custom/rich-text/rich-text",
     "pages/debug/view/custom/custom-page/custom-page",
     "pages/debug/miniapp/wx-cmd/0wxcmd/0wxcmd",
     "pages/0demo/0index/0index",
@@ -12,7 +14,6 @@
     "pages/debug/publicNo/get-unionid/get-unionid",
     "pages/debug/publicNo/follow-by-web/follow-by-web",
     "pages/debug/publicNo/follow-public-no/follow-public-no",
-    "pages/debug/view/layout/scroll-view/scroll-view",
     "pages/debug/miniapp/wx-cmd/wx-for/wx-for",
     "pages/debug/miniapp/wx-app/0wxapp/0wxapp",
     "pages/debug/miniapp/wx-page/0wxpage/0wxpage",
@@ -46,7 +47,8 @@
     "pages/debug/view/wechat/radio/radio",
     "pages/debug/view/advance/component/comp-test",
     "pages/debug/miniapp/wx-cmd/wx-if/wx-if",
-    "pages/debug/miniapp/wx-cmd/bind-style/bind-style"
+    "pages/debug/miniapp/wx-cmd/bind-style/bind-style",
+    "pages/debug/view/layout/0layout/0layout"
   ],
   "window": {
     "backgroundTextStyle": "light",

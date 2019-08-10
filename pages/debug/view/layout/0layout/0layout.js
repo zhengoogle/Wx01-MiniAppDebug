@@ -1,4 +1,4 @@
-// pages/debug/view/0view/0view.js
+// pages/debug/view/layout/0layout/0layout.js
 Page({
 
   /**
@@ -6,14 +6,11 @@ Page({
    */
   data: {
     singleList: [{
-      name: '1.自定义组件',
-      path: '/pages/debug/view/custom/0custom/0custom'
+      name: '1.ScrollView',
+      path: '/pages/debug/view/layout/scroll-view/scroll-view'
     },{
-      name: '2.布局容器',
-      path: '/pages/debug/view/layout/0layout/0layout'
-    },{
-      name: '3.输入组件',
-      path: '/pages'
+      name: '2.下拉刷新',
+      path: '/pages/debug/view/layout/pull-down/pull-down'
     }]
   },
 

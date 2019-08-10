@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "布局容器",
+  "usingComponents": {
+    "single-list": "/pages/components/demo/single-list/single-list"
+  }
+}

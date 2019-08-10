@@ -22,7 +22,7 @@
 		}
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.3.0",
+	"libVersion": "2.0.4",
 	"appid": "wx497664c007e32bb8",
 	"projectname": "Wx01-MiniAppDebug",
 	"debugOptions": {

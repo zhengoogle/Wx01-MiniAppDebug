@@ -1,10 +1,67 @@
 <!--pages/debug/view/layout/scroll-view/scroll-view.wxml-->
-<view class="sv-root" id="svRoot">
+<!-- 1.scroll-view -->
+<view wx:if="{{scrollEvent == 0}}" class="sv-root" id="svRoot">
 	<scroll-view class="sv-clz" id="svScroll" scroll-y="{{scrollY}}"
-        bindscrolltoupper="upperScroll" bindscrolltolower="lowerScroll" bindscroll="scrollScroll"
+        bindscrolltoupper="upperScroll" bindscrolltolower="lowerScroll" bindscroll="onScroll"
         scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
 		<view class="sv-card-clz0" id="svElm0"></view>
 		<view class="sv-card-clz1" id="svElm1"></view>
 		<view class="sv-card-clz2" id="svElm2"></view>
 	</scroll-view>
+</view>
+
+<!-- 2.view scroll -->
+<view wx:if="{{scrollEvent == 1}}" class="sv2-root">
+	<view class="sv-card-clz0" id="svElm0"></view>
+	<view class="sv-card-clz1" id="svElm1"></view>
+	<view class="sv-card-clz2" id="svElm2"></view>
+</view>
+
+<!-- 3.scroll-view + scroll-view -->
+<view wx:if="{{scrollEvent == 2}}" class="sv-root" id="svRoot">
+	<scroll-view class="sv-clz" id="svScroll" scroll-y="{{scrollY}}">
+		<view class="sv-card-clz0" ></view>
+		<scroll-view scroll-y="true" style="height: 300rpx;width: 500rpx;">
+			<view style="height: 200rpx;background: aqua;"></view>
+			<view style="height: 200rpx;background: bisque;"></view>
+		</scroll-view>
+		<view class="sv-card-clz2"></view>
+	</scroll-view>
+</view>
+<view wx:if="{{scrollEvent == 2}}" class="sv-root" id="svRoot" style="background: rgba(0,0,0,0.5);">
+	<scroll-view id="svScroll" scroll-y="{{scrollY}}" style="height: 400rpx;">
+		<view style="height: 300rpx;background: aqua;"></view>
+		<view style="height: 300rpx;background: bisque;"></view>
+	</scroll-view>
+</view>
+
+<!-- 4.scroll-view + scroll-view -->
+<view wx:if="{{scrollEvent == 3}}" class="sv3-root">
+	<view class="sv-card-clz0" id="svElm0"></view>
+	<view class="sv-card-clz1" id="svElm1"></view>
+	<view class="sv-card-clz2" id="svElm2"></view>
+</view>
+<view wx:if="{{scrollEvent == 3}}" class="sv3-root" style="background: rgba(0,0,0,0.5);">
+	<view style="height: 400rpx;overflow-y: scroll;">
+		<view style="height: 300rpx;background: aqua;"></view>
+		<view style="height: 300rpx;background: bisque;"></view>
+	</view>
+</view>
+
+<!-- 5.scroll-view + view -->
+<view wx:if="{{scrollEvent == 4}}" class="sv-root" id="svRoot">
+	<scroll-view class="sv-clz" id="svScroll" scroll-y="{{scrollY}}">
+		<view class="sv-card-clz0" ></view>
+		<scroll-view scroll-y="true" style="height: 300rpx;width: 500rpx;">
+			<view style="height: 200rpx;background: aqua;"></view>
+			<view style="height: 200rpx;background: bisque;"></view>
+		</scroll-view>
+		<view class="sv-card-clz2"></view>
+	</scroll-view>
+</view>
+<view wx:if="{{scrollEvent == 4}}" class="sv-root" id="svRoot" style="background: rgba(0,0,0,0.5);">
+	<view style="height: 400rpx;overflow-y: scroll;">
+		<view style="height: 300rpx;background: aqua;"></view>
+		<view style="height: 300rpx;background: bisque;"></view>
+	</view>
 </view>
