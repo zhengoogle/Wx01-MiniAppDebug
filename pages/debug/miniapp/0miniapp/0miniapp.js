@@ -6,10 +6,13 @@ Page({
 	 */
 	data: {
 		singleList: [{
-			name: '小程序指令',
+			name: '1.开发工具',
+			path: '/pages/debug/miniapp/dev-tools/dev-tools/dev-tools'
+		},{
+			name: '2.小程序指令',
 			path: '/pages/debug/miniapp/wx-cmd/0wxcmd/0wxcmd'
 		},{
-			name: '小程序APP',
+			name: '3.小程序APP',
 			path: '/pages'
 		},]
 	},

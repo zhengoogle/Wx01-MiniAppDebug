@@ -48,7 +48,8 @@
     "pages/debug/view/advance/component/comp-test",
     "pages/debug/miniapp/wx-cmd/wx-if/wx-if",
     "pages/debug/miniapp/wx-cmd/bind-style/bind-style",
-    "pages/debug/view/layout/0layout/0layout"
+    "pages/debug/view/layout/0layout/0layout",
+    "pages/debug/miniapp/dev-tools/dev-tools/dev-tools"
   ],
   "window": {
     "backgroundTextStyle": "light",
