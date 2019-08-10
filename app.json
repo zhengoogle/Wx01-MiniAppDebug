@@ -1,8 +1,9 @@
 {
   "pages": [
-    "pages/debug/view/custom/custom-page/custom-page",
+    "pages/debug/view/custom/rich-text/rich-text",
     "pages/debug/api/0api/0api",
 
+    "pages/debug/view/custom/custom-page/custom-page",
     "pages/debug/miniapp/wx-cmd/0wxcmd/0wxcmd",
     "pages/0demo/0index/0index",
     "pages/0demo/0demo/0demo",

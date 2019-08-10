@@ -9,10 +9,23 @@
  * --- https://www.jianshu.com/p/8a2a730d9e60
  * --- https://blog.csdn.net/u013654125/article/details/80733767
  *
- * 事件
- * 传值
- * 生命周期
- * slot用法
+ * 开源组件化框架
+ * --- https://github.com/Meituan-Dianping/mpvue
+ * --- https://github.com/Tencent/wepy
+ * --- https://github.com/NervJS/taro
+ * --- https://github.com/didi/mpx
+ *
+ * 自定义表格
+ * --- https://github.com/xiaolin3303/wx-charts
+ * --- https://github.com/Small-Years/MiNi_Table_Demo
+ * --- https://github.com/antvis/wx-f2
+ *
+ *
+ * 场景
+ * ---事件
+ * ---传值
+ * ---生命周期
+ * ---slot用法
  */
 Page({
 

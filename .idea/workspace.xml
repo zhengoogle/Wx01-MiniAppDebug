@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="583cdcee-fa0f-4796-a76d-b1472e98113b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/debug/view/0view/0view.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/debug/view/0view/0view.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/debug/view/0view/0view.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/debug/view/0view/0view.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/debug/view/0view/0view.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/debug/view/0view/0view.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/debug/view/custom/custom-page/custom-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/debug/view/custom/custom-page/custom-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+            <state relative-caret-position="480">
+              <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -30,53 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/debug/view/custom/custom-page/custom-page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="41" column="50" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/debug/view/custom/custom-page/custom-page.wxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/debug/view/custom/custom-page/custom-page.wxss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/components/custom/custom-view/custom-view.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="76" column="6" lean-forward="true" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/components/custom/custom-view/custom-view.wxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/components/custom/custom-view/custom-view.wxss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="600">
+              <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -138,13 +92,14 @@
         <option value="$PROJECT_DIR$/pages/debug/view/custom/custom-view/custom-view.wxml" />
         <option value="$PROJECT_DIR$/pages/debug/view/custom/custom-view/custom-view.json" />
         <option value="$PROJECT_DIR$/pages/debug/view/custom/custom-page/custom-view.wxml" />
-        <option value="$PROJECT_DIR$/app.json" />
         <option value="$PROJECT_DIR$/pages/components/custom/custom-view/custom-view.wxss" />
         <option value="$PROJECT_DIR$/pages/debug/view/custom/custom-page/custom-page.wxss" />
         <option value="$PROJECT_DIR$/pages/components/custom/custom-view/custom-view.wxml" />
         <option value="$PROJECT_DIR$/pages/debug/view/custom/custom-page/custom-page.wxml" />
-        <option value="$PROJECT_DIR$/pages/debug/view/custom/custom-page/custom-page.js" />
         <option value="$PROJECT_DIR$/pages/components/custom/custom-view/custom-view.js" />
+        <option value="$PROJECT_DIR$/pages/components/custom/rich-text/rich-text.js" />
+        <option value="$PROJECT_DIR$/app.json" />
+        <option value="$PROJECT_DIR$/pages/debug/view/custom/custom-page/custom-page.js" />
       </list>
     </option>
   </component>
@@ -170,7 +125,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,13 +147,6 @@
               <item name="Wx01-MiniAppDebug" type="b2602c69:ProjectViewProjectNode" />
               <item name="Wx01-MiniAppDebug" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="0demo" type="462c0819:PsiDirectoryNode" />
-              <item name="0demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Wx01-MiniAppDebug" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Wx01-MiniAppDebug" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -208,14 +155,6 @@
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="custom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Wx01-MiniAppDebug" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Wx01-MiniAppDebug" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="custom" type="462c0819:PsiDirectoryNode" />
-              <item name="custom-view" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Wx01-MiniAppDebug" type="b2602c69:ProjectViewProjectNode" />
@@ -237,15 +176,6 @@
               <item name="debug" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
               <item name="custom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Wx01-MiniAppDebug" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Wx01-MiniAppDebug" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="debug" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="custom" type="462c0819:PsiDirectoryNode" />
-              <item name="custom-page" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Wx01-MiniAppDebug" type="b2602c69:ProjectViewProjectNode" />
@@ -272,6 +202,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -281,6 +212,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Studio\Html5\0GithubOpen\Wx01-MiniAppDebug\pages\debug\view\custom" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -308,15 +244,15 @@
       <workItem from="1565110344392" duration="1610000" />
       <workItem from="1565194525174" duration="3835000" />
       <workItem from="1565268275636" duration="9090000" />
+      <workItem from="1565425416521" duration="1107000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15093000" />
+    <option name="totallyTimeSpent" value="16200000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22918862" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -342,13 +278,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/debug/miniapp/wx-cmd/0wxcmd/0wxcmd.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/debug/api/0api/0api.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -411,9 +340,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/home/view/ViewPage.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/home/view/ViewPage.js" />
     <entry file="file://$PROJECT_DIR$/pages/debug/miniapp/wx-cmd/0wxcmd/0wxcmd.wxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -459,23 +386,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/content/index/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/content/index/index.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/content/index/index.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/content/index/index.js" />
+    <entry file="file://$PROJECT_DIR$/pages/content/index/index.wxml" />
+    <entry file="file://$PROJECT_DIR$/pages/content/index/index.json" />
     <entry file="file://$PROJECT_DIR$/pages/debug/miniapp/wx-app/0wxapp/0wxapp.wxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -570,13 +483,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/debug/view/custom/custom-page/custom-view.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/debug/view/custom/custom-page/custom-view.js" />
     <entry file="file://$PROJECT_DIR$/pages/debug/miniapp/app/0app/0app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-951">
@@ -601,20 +508,8 @@
     <entry file="file://$PROJECT_DIR$/pages/debug/miniapp/app/0app/0app.wxss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/debug/view/custom/custom-page/custom-view.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/debug/view/custom/custom-page/custom-view.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/debug/view/custom/custom-page/custom-view.json" />
+    <entry file="file://$PROJECT_DIR$/pages/debug/view/custom/custom-page/custom-view.wxml" />
     <entry file="file://$PROJECT_DIR$/pages/debug/view/0view/0view.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -636,31 +531,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/0demo/0demo/0demo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/components/custom/custom-view/custom-view.wxss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="240">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/components/custom/custom-view/custom-view.wxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="168">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/debug/view/custom/custom-page/custom-page.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -671,24 +559,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/debug/view/custom/custom-page/custom-page.wxss">
+    <entry file="file://$PROJECT_DIR$/pages/debug/view/custom/rich-text/rich-text.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/debug/view/custom/custom-page/custom-page.js">
+    <entry file="file://$PROJECT_DIR$/pages/0demo/0demo/0demo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="41" column="50" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
+        <state relative-caret-position="192">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/components/custom/custom-view/custom-view.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="76" column="6" lean-forward="true" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
+        <state relative-caret-position="144">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/debug/view/custom/custom-page/custom-page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
         </state>
       </provider>
     </entry>
