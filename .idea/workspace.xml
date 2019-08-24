@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="583cdcee-fa0f-4796-a76d-b1472e98113b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/debug/miniapp/0miniapp/0miniapp.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/debug/miniapp/0miniapp/0miniapp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/0demo/0index/0index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/0demo/0index/0index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/components/demo/single-list/single-list.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/demo/single-list/single-list.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/components/demo/single-list/single-list.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/demo/single-list/single-list.wxss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,8 +21,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="54" column="35" lean-forward="true" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
+            <state relative-caret-position="360">
+              <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/0demo/0index/0index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -28,26 +39,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/0demo/0demo/0demo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+            <state relative-caret-position="240">
+              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/debug/miniapp/dev-tools/dev-tools/dev-tools.js">
+        <entry file="file://$PROJECT_DIR$/pages/components/demo/single-list/single-list.wxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="168">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/components/demo/single-list/single-list.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/debug/miniapp/0miniapp/0miniapp.js">
+        <entry file="file://$PROJECT_DIR$/pages/debug/miniapp/dev-tools/dev-tools/dev-tools.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="576">
+              <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/components/demo/single-list/single-list.wxss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -66,9 +95,11 @@
       <find>list-view</find>
       <find>onItemClick</find>
       <find>scroll</find>
+      <find>wc</find>
     </findStrings>
     <replaceStrings>
       <replace>bsty</replace>
+      <replace>sl0</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -79,10 +110,7 @@
       <list>
         <option value="$PROJECT_DIR$/pages/0demo/0demo/0demo.wxss" />
         <option value="$PROJECT_DIR$/pages/0demo/0index/0index.json" />
-        <option value="$PROJECT_DIR$/pages/components/demo/single-list/single-list.wxss" />
-        <option value="$PROJECT_DIR$/pages/components/demo/single-list/single-list.wxml" />
         <option value="$PROJECT_DIR$/pages/0demo/0index/0index.wxml" />
-        <option value="$PROJECT_DIR$/pages/0demo/0index/0index.js" />
         <option value="$PROJECT_DIR$/pages/components/demo/single-list/single-list.js" />
         <option value="$PROJECT_DIR$/pages/debug/miniapp/wx-cmd/0wxcmd/0wxcmd.wxml" />
         <option value="$PROJECT_DIR$/pages/0demo/0index/0index.wxss" />
@@ -128,6 +156,9 @@
         <option value="$PROJECT_DIR$/app.json" />
         <option value="$PROJECT_DIR$/pages/debug/miniapp/dev-tools/dev-tools/dev-tools.js" />
         <option value="$PROJECT_DIR$/pages/debug/miniapp/0miniapp/0miniapp.js" />
+        <option value="$PROJECT_DIR$/pages/0demo/0index/0index.js" />
+        <option value="$PROJECT_DIR$/pages/components/demo/single-list/single-list.wxml" />
+        <option value="$PROJECT_DIR$/pages/components/demo/single-list/single-list.wxss" />
       </list>
     </option>
   </component>
@@ -143,6 +174,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,6 +197,33 @@
               <item name="Wx01-MiniAppDebug" type="b2602c69:ProjectViewProjectNode" />
               <item name="Wx01-MiniAppDebug" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="0demo" type="462c0819:PsiDirectoryNode" />
+              <item name="0demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Wx01-MiniAppDebug" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wx01-MiniAppDebug" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="0demo" type="462c0819:PsiDirectoryNode" />
+              <item name="0index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Wx01-MiniAppDebug" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wx01-MiniAppDebug" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Wx01-MiniAppDebug" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wx01-MiniAppDebug" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Wx01-MiniAppDebug" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wx01-MiniAppDebug" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="debug" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -180,7 +239,16 @@
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="debug" type="462c0819:PsiDirectoryNode" />
               <item name="miniapp" type="462c0819:PsiDirectoryNode" />
-              <item name="0miniapp" type="462c0819:PsiDirectoryNode" />
+              <item name="dev-tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Wx01-MiniAppDebug" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wx01-MiniAppDebug" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="debug" type="462c0819:PsiDirectoryNode" />
+              <item name="miniapp" type="462c0819:PsiDirectoryNode" />
+              <item name="dev-tools" type="462c0819:PsiDirectoryNode" />
+              <item name="dev-tools" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Wx01-MiniAppDebug" type="b2602c69:ProjectViewProjectNode" />
@@ -199,7 +267,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -241,18 +308,20 @@
       <workItem from="1565110344392" duration="1610000" />
       <workItem from="1565194525174" duration="3835000" />
       <workItem from="1565268275636" duration="9090000" />
-      <workItem from="1565425416521" duration="9488000" />
+      <workItem from="1565425416521" duration="12490000" />
+      <workItem from="1565542538586" duration="437000" />
+      <workItem from="1565622038421" duration="21000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24581000" />
+    <option name="totallyTimeSpent" value="28041000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22918862" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22391991" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -276,15 +345,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/content/index/index.wxml" />
-    <entry file="file://$PROJECT_DIR$/pages/content/index/index.json" />
-    <entry file="file://$PROJECT_DIR$/pages/debug/miniapp/wx-app/0wxapp/0wxapp.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/debug/miniapp/wx-app/0wxapp/0wxapp.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -292,13 +352,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/0demo/0index/0index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -587,31 +640,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/0demo/0demo/0demo.js">
+    <entry file="file://$PROJECT_DIR$/pages/debug/miniapp/0miniapp/0miniapp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        <state relative-caret-position="456">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="54" column="35" lean-forward="true" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
+        <state relative-caret-position="360">
+          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/0demo/0index/0index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/0demo/0demo/0demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/components/demo/single-list/single-list.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/components/demo/single-list/single-list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/components/demo/single-list/single-list.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/debug/miniapp/dev-tools/dev-tools/dev-tools.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/debug/miniapp/0miniapp/0miniapp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="576">
+          <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
         </state>
       </provider>
     </entry>

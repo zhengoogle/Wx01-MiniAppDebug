@@ -1,11 +1,19 @@
-// pages/0demo/0index/0index.js
+// pages/debug/frame/rich-text/rich-text.js
 /**
- * 小程序工程模板参考页面
- * API dev@2019.08.07
- * TODO 一级卡片/二级卡片设计
+ * 小程序@框架/富文本
+ * ---jin-yufeng/Parser
+ * --- https://github.com/jin-yufeng/Parser
+ * ---icindy/wxParse
+ * --- https://github.com/icindy/wxParse
+ *
+ * 使用场景
+ * 1.NG
+ *
+ * issue
+ * #1.NG
  *
  * Router
- * --- "/pages/0demo/0index/0index"
+ * --- "/pages/0demo/0demo/0demo"
  */
 Page({
 
@@ -13,16 +21,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    singleList: [{
-      name: '1.wx动态绑定样式',
-      path: '/pages/0demo/0demo/0demo'
-    },{
-      name: '2.小程序ScrollView',
-      path: '/pages'
-    },{
-      name: '3.小程序模板组件',
-      path: '/pages'
-    }]
+    htmlStr: '<style>.demo{font-style:italic;}#demo2{font-weight:bold;}p{text-align:center;font-size:30px;}' +
+      '</style><p><span class="demo">Hello </span><span id="demo2">World!</span></p>'
   },
 
   /**

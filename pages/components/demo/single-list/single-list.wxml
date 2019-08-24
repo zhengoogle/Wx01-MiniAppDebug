@@ -1,7 +1,7 @@
 <!--pages/components/demo/single-list/single-list.wxml-->
-<view class="wc-main-box">
-    <view bindtap="onItemClick" class="wc-item-box" wx:for="{{singleList}}" wx:key="" wx:for-index="index" id="{{index}}"
+<view class="sl0-main-box">
+    <view bindtap="onItemClick" class="sl0-item-box" wx:for="{{singleList}}" wx:key="" wx:for-index="index" id="{{index}}"
           wx:for-item="item">
-        <view class="wc-item-title">{{item.name}}</view>
+        <view class="sl0-item-title">{{item.name}}</view>
     </view>
 </view>

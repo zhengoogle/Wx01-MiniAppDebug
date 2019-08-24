@@ -49,7 +49,9 @@
     "pages/debug/miniapp/wx-cmd/wx-if/wx-if",
     "pages/debug/miniapp/wx-cmd/bind-style/bind-style",
     "pages/debug/view/layout/0layout/0layout",
-    "pages/debug/miniapp/dev-tools/dev-tools/dev-tools"
+    "pages/debug/miniapp/dev-tools/dev-tools/dev-tools",
+    "pages/debug/frame/0frame/0frame",
+    "pages/debug/frame/rich-text/rich-text"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -65,21 +67,27 @@
     "list": [
       {
         "pagePath": "pages/debug/api/0api/0api",
-        "iconPath": "image/icon_API.png",
-        "selectedIconPath": "image/icon_API_HL.png",
+        "iconPath": "image/ic_api_def.png",
+        "selectedIconPath": "image/ic_api_sel.png",
         "text": "API"
+      },
+      {
+        "pagePath": "pages/debug/view/0view/0view",
+        "iconPath": "image/ic_comp_def.png",
+        "selectedIconPath": "image/ic_comp_sel.png",
+        "text": "组件"
       },
       {
         "pagePath": "pages/debug/miniapp/0miniapp/0miniapp",
         "iconPath": "image/icon_app_def.png",
         "selectedIconPath": "image/icon_app_sel.png",
-        "text": "框架"
+        "text": "小程序"
       },
       {
-        "pagePath": "pages/debug/view/0view/0view",
-        "iconPath": "image/icon_component.png",
-        "selectedIconPath": "image/icon_component_HL.png",
-        "text": "组件"
+        "pagePath": "pages/debug/frame/0frame/0frame",
+        "iconPath": "image/ic_github_def.png",
+        "selectedIconPath": "image/ic_github_sel.png",
+        "text": "框架"
       }
     ]
   },

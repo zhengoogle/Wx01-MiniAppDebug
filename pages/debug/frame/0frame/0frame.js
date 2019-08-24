@@ -1,11 +1,9 @@
-// pages/0demo/0index/0index.js
+// pages/debug/frame/0frame/0frame.js
 /**
- * 小程序工程模板参考页面
- * API dev@2019.08.07
- * TODO 一级卡片/二级卡片设计
+ * 小程序@框架
  *
  * Router
- * --- "/pages/0demo/0index/0index"
+ * --- "/pages/debug/frame/0frame/0frame"
  */
 Page({
 
@@ -14,14 +12,8 @@ Page({
    */
   data: {
     singleList: [{
-      name: '1.wx动态绑定样式',
-      path: '/pages/0demo/0demo/0demo'
-    },{
-      name: '2.小程序ScrollView',
-      path: '/pages'
-    },{
-      name: '3.小程序模板组件',
-      path: '/pages'
+      name: '1.富文本解析',
+      path: '/pages/debug/frame/rich-text/rich-text'
     }]
   },
 

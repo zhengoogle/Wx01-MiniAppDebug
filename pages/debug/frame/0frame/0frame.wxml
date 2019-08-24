@@ -1,0 +1,3 @@
+<!--pages/debug/frame/0frame/0frame.wxml-->
+<single-list singleList="{{singleList}}"></single-list>
+

@@ -1,0 +1,2 @@
+<!--pages/debug/frame/rich-text/rich-text.wxml-->
+<Parser html="{{htmlStr}}" img-mode="widthFix"/>

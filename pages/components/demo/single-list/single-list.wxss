@@ -1,14 +1,14 @@
 /* pages/components/demo/single-list/single-list.wxss */
 /* pages/0demo/0index/0index.wxss */
-.wc-main-box{
-    width: 100%;
-}
+.sl0-main-box{
+     width: 100%;
+ }
 
-.wc-item-box{
+.sl0-item-box{
     margin: 10rpx;
 }
 
-.wc-item-title{
+.sl0-item-title{
     padding: 8rpx;
     text-decoration:underline;
     color: blue;
