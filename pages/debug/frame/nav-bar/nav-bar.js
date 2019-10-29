@@ -1,9 +1,20 @@
-// pages/debug/frame/0frame/0frame.js
+// pages/debug/frame/nav-bar/nav-bar.js
 /**
- * 小程序@框架
+ * 小程序@框架/自定义导航栏(返回/Home)
+ * ---lingxiaoyi/navigation-bar
+ * ---示例完善、机型测试充分、设计合理
+ * --- https://github.com/lingxiaoyi/navigation-bar
+ * ---chen-yt/wx_custom_navigation_bar
+ * --- https://github.com/chen-yt/wx_custom_navigation_bar
+ *
+ * 使用场景
+ * 1.NG
+ *
+ * issue
+ * #1.NG
  *
  * Router
- * --- "/pages/debug/frame/0frame/0frame"
+ * --- "/pages/0demo/0demo/0demo"
  */
 Page({
 
@@ -11,13 +22,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    singleList: [{
-      name: '1.富文本解析',
-      path: '/pages/debug/frame/rich-text/rich-text'
-    },{
-      name: '2.自定义导航组件',
-      path: '/pages/debug/frame/nav-bar/nav-bar'
-    }]
+
   },
 
   /**
@@ -25,6 +30,31 @@ Page({
    */
   onLoad: function (options) {
 
+  },
+
+  /**
+   * Back
+   * @param {*} delta 
+   */
+  handlerGobackClick(delta) {
+    const pages = getCurrentPages();
+    if (pages.length >= 2) {
+      wx.navigateBack({
+        delta: delta
+      });
+    } else {
+      wx.navigateTo({
+        url: '/pages/index/index'
+      });
+    }
+  },
+  /**
+   * Home
+   */
+  handlerGohomeClick() {
+    wx.navigateTo({
+      url: '/pages/index/index'
+    });
   },
 
   /**

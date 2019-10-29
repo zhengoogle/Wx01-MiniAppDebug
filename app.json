@@ -51,7 +51,8 @@
     "pages/debug/view/layout/0layout/0layout",
     "pages/debug/miniapp/dev-tools/dev-tools/dev-tools",
     "pages/debug/frame/0frame/0frame",
-    "pages/debug/frame/rich-text/rich-text"
+    "pages/debug/frame/rich-text/rich-text",
+    "pages/debug/frame/nav-bar/nav-bar"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -96,6 +97,9 @@
     "connectSocket": 10000,
     "uploadFile": 10000,
     "downloadFile": 10000
+  },
+  "usingComponents": {
+    "navBar": "/frame/navBar/navBar"
   },
   "sitemapLocation": "sitemap.json"
 }
